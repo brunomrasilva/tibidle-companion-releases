@@ -1,0 +1,95 @@
+{
+  // Mapeado a partir dos snapshots de 01/10/2026 (assets v167). Prefira data-testid: não muda com o idioma.
+  // Itens vazios ({}) ainda dependem de snapshot. Com "version" = "UNMAPPED" o modo automático fica
+  // desligado; os botões F1–F4 do painel funcionam para testar. Depois de validar, troque para "v167".
+  "version": "v189",
+
+  // A ordem importa: a primeira tela detectada vence.
+  "screens": {
+    "eliteResult": { "location": "Elite", "detect": { "css": "[data-testid='victory-modal']" } },
+    // O treino também tem o botão "stop": a janela "Estatísticas de treino" só existe na fase de treino.
+    "training":    { "location": "Training", "detect": { "css": "[data-testid='hud-trainanalyzer']" } },
+    "hunt":        { "location": "Hunt",  "detect": { "css": "[data-testid='stop']" } },
+    "city":        { "location": "City",  "detect": { "css": "[data-testid='actionbar-depot']" } }
+  },
+
+  // css e/ou text (maiúsculas não importam). match: exact (padrão) | contains | prefix.
+  // scope: só procura dentro do menor bloco (scope.css) que contém scope.text. key: envia uma tecla.
+  // Variáveis: {huntName}, {island}, {boss}.
+  "buttons": {
+    "play":            { "css": "[data-testid='actionbar-hunt']" },
+    "huntsButton":     { "css": "[data-testid='actionbar-explore']" },
+    "huntsTab":        { "css": "[data-testid='explore-tab-hunts']" },
+    "elitesTab":       { "css": "[data-testid='explore-tab-minibosses']" },
+    "bossesTab":       { "css": "[data-testid='explore-tab-bosses']" },
+    "islandTab":       { "css": "[data-testid='explore-ilha-{island}']" },
+    "playHere":        { "text": "JOGAR AQUI", "scope": { "css": "[data-testid^='hunt-item-']", "text": "{huntName}" } },
+    "lureOpen":        { "css": "[data-testid='lure-toggle']" },
+    "lureClose":       { "css": "[data-testid='lure-modal-close']" },
+    "lureUp":          {},
+    "lureDown":        {},
+
+    "exitHunt":        { "css": "[data-testid='stop']" },
+    "confirmExitHunt": {},
+    "summaryClose":    { "css": "[data-testid='summary-close']" },
+    "loginBannerClose": { "css": "[data-testid='login-banner-close']" },
+    "eventsClose":     { "css": "[data-testid='eventos-close']" },
+    "trainOpen":       { "css": "[data-testid='actionbar-train']" },
+    "trainStart":      { "css": "[data-testid='train-start']" },
+    "huntConfirm":     { "css": "[data-testid='hunt-confirm']" },
+
+    "sellOpen":        { "css": "[data-testid='actionbar-selling']" },
+    "sellConfirm":     { "css": "[data-testid='sell-confirm']" },
+    "sellDialogOk":    { "css": "[data-testid='confirm-dialog'] [data-testid='confirm-ok']" },
+    "sellClose":       { "css": "[data-testid='sell-panel'] [data-testid='panel-close']" },
+
+    "depotOpen":       { "css": "[data-testid='actionbar-depot']" },
+    "depotStoreAll":   { "css": "[data-testid='depot-guardar-tudo']" },
+    "depotClose":      { "css": "[data-testid='depot-panel'] [data-testid='panel-close']" },
+
+    "raidTab":         { "css": "[data-testid='invasao-icone']" },
+    "raidSignup":      { "text": "INSCREVER", "match": "prefix", "scope": { "css": "[data-testid='invasao-modal']" } },
+    "raidPresetTab":   { "css": "[data-testid='invasao-aba-preset']" },
+    "raidClose":       { "css": "[data-testid='invasao-close']" },
+
+    "eliteFight":      { "css": "[data-testid^='explore-boss-'][data-testid$='-action']", "text": "ENFRENTAR" },
+    "keysRailToggle":  { "css": "[data-testid='rail-keys-toggle']" },
+    "eliteFightNamed": { "css": "[data-testid=\"explore-boss-{elite}-action\"]" },
+    "fightResultBack": { "css": "[data-testid='victory-guardar']" },
+
+    "faceBoss":        { "text": "ENFRENTAR", "scope": { "text": "{boss}" } },
+    "npcSilas":        {},
+    "silasBossesTab":  {},
+    "silasTrade":      {},
+
+    "chestOpenNow":    { "text": "ABRIR AGORA" },
+    "chestResultClose": { "css": "[data-testid='victory-modal'] [data-testid='victory-guardar']" },
+    "bestiaryTrackerToggle": { "css": "[data-testid='hud-bestiary-track']" },
+    "allIslands":      { "css": "[data-testid='explore-todas-ilhas']" },
+    "closeDialog":     { "css": "[data-testid='screen-hunts-back']" }
+  },
+
+  "counters": {
+    "backpack":     { "css": "[data-testid='rail-backpack-cap']", "regex": "(\\d[\\d.,]*)\\s*/\\s*(\\d[\\d.,]*)" },
+    "keys":         { "css": "[data-testid='rail-keys-cap']",     "regex": "(\\d+)\\s*/\\s*(\\d+)" },
+    "bossAttempts": { "group": { "item": "", "label": "", "value": "" } }
+  },
+
+  "flags": {
+    "raidSignedUp": { "css": "[data-testid='invasao-icone-topo'][data-topo='inscrito']" },
+    "partyDead":    {},
+    "fightWon":     { "css": "[data-testid='victory-modal']" },
+    "fightLost":    {},
+    "bossTradeAvailable:Azerus":    {},
+    "bossTradeAvailable:Jaul":      {},
+    "bossTradeAvailable:Shen-long": {}
+  },
+
+  "texts": {
+    // Só visíveis com a janela JOGAR aberta. O card da caçada atual tem a classe s-explore-card--aqui
+    // ("Você está caçando aqui"); aria-pressed é só o card destacado (ex.: aberto por um card do bestiário).
+    "huntName": { "css": "[data-testid^='hunt-item-'].s-explore-card--aqui img[alt]", "attr": "alt" },
+    "island":   { "css": "[data-testid^='explore-ilha-'][aria-pressed='true']", "attr": "data-testid", "regex": "explore-ilha-(.+)" },
+    "lure":     { "css": "", "regex": "(\\d+)" }
+  }
+}

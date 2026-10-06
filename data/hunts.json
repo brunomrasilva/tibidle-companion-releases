@@ -1,0 +1,573 @@
+{
+ "Amazon Camp": {
+  "fisico": -8,
+  "fogo": 5,
+  "gelo": 5,
+  "morte": -5,
+  "sagrado": 2
+ },
+ "Barbarian Camp": {
+  "drenoDeVida": 50,
+  "energia": 20,
+  "fisico": -5,
+  "gelo": 50,
+  "morte": -8,
+  "sagrado": 15,
+  "terra": -5
+ },
+ "Black Knight Quest": {
+  "drenoDeVida": 50,
+  "fogo": -5,
+  "gelo": 10,
+  "terra": 50
+ },
+ "Bog Raiders Yalahar": {
+  "energia": -10,
+  "fisico": -5,
+  "fogo": 85,
+  "gelo": -5,
+  "morte": 5,
+  "sagrado": -5,
+  "terra": 30
+ },
+ "Bottom of the Ocean": {
+  "afogamento": 50,
+  "energia": -10,
+  "fogo": 100,
+  "gelo": 100,
+  "morte": 30,
+  "terra": -10
+ },
+ "Carlin Raids": {
+  "fisico": -5,
+  "morte": -5,
+  "sagrado": 10
+ },
+ "Chakoyas Svargrond": {
+  "energia": -15,
+  "fogo": 15,
+  "gelo": 18,
+  "morte": -5,
+  "sagrado": 10
+ },
+ "Coryms Lair": {
+  "energia": 20,
+  "morte": 18,
+  "sagrado": -5,
+  "terra": 25
+ },
+ "Crocodiles Port Hope": {
+  "energia": -5,
+  "fisico": -10,
+  "fogo": -10,
+  "gelo": 10,
+  "terra": 20
+ },
+ "Crystal Keeper": {
+  "energia": 90,
+  "fisico": 20,
+  "fogo": -15,
+  "gelo": 15,
+  "morte": 45,
+  "sagrado": 50,
+  "terra": 100
+ },
+ "Cults Goroma": {
+  "energia": -7,
+  "fisico": -5,
+  "gelo": 20,
+  "morte": -5,
+  "sagrado": 23,
+  "terra": 20
+ },
+ "Cyclops Mistrock": {
+  "energia": 15,
+  "fogo": 5,
+  "gelo": 10,
+  "morte": -5,
+  "sagrado": 20,
+  "terra": -10
+ },
+ "Cyclops Thais": {
+  "energia": 25,
+  "morte": -10,
+  "sagrado": 20,
+  "terra": -10
+ },
+ "Daramian Minotaur Pyramid": {
+  "fogo": 20,
+  "gelo": -10,
+  "morte": -10,
+  "sagrado": 10
+ },
+ "Deepling Library": {
+  "afogamento": 50,
+  "energia": -10,
+  "fogo": 100,
+  "gelo": 100,
+  "morte": 10,
+  "terra": -10
+ },
+ "Desert Quest": {
+  "energia": 25,
+  "fisico": 5,
+  "fogo": 45,
+  "gelo": -15,
+  "morte": 10,
+  "sagrado": -5,
+  "terra": 60
+ },
+ "Djinns Marid Territory": {
+  "energia": 50,
+  "fogo": 80,
+  "gelo": -10,
+  "morte": -13,
+  "sagrado": 20
+ },
+ "Dragon Lair": {
+  "energia": 8,
+  "fogo": 100,
+  "gelo": -10,
+  "terra": 78
+ },
+ "Draken Walls": {
+  "energia": -2,
+  "fisico": 10,
+  "fogo": 100,
+  "gelo": -8,
+  "morte": 65,
+  "sagrado": -38,
+  "terra": 100
+ },
+ "Dwarf Bridge": {
+  "fogo": -5,
+  "morte": -5,
+  "terra": 10
+ },
+ "Dwarven Mines": {
+  "fogo": -5,
+  "morte": -5,
+  "terra": 10
+ },
+ "Dworcs Port Hope": {
+  "fogo": -10,
+  "gelo": -12,
+  "morte": -10,
+  "sagrado": 8,
+  "terra": 100
+ },
+ "Elfs Shadowthorn": {
+  "morte": -10,
+  "sagrado": 20
+ },
+ "Elfs Yalahar": {
+  "morte": -10,
+  "sagrado": 20
+ },
+ "Fiehonja Stairway": {
+  "afogamento": 67,
+  "energia": -10,
+  "fogo": 100,
+  "gelo": 100,
+  "morte": 3,
+  "terra": -10
+ },
+ "Fire Portal": {
+  "energia": 20,
+  "fisico": 30,
+  "fogo": 10,
+  "gelo": 10,
+  "sagrado": -30,
+  "terra": 100
+ },
+ "Frozen Hell": {
+  "drenoDeVida": 50,
+  "energia": -10,
+  "fisico": 12,
+  "fogo": 100,
+  "gelo": 100,
+  "morte": 55,
+  "sagrado": 50,
+  "terra": 50
+ },
+ "Gargoyles Meriana": {
+  "drenoDeVida": 100,
+  "fisico": 20,
+  "fogo": -10,
+  "morte": 40,
+  "terra": 100
+ },
+ "Giant Spiders POH": {
+  "energia": 10,
+  "fogo": -10,
+  "gelo": 10,
+  "terra": 100
+ },
+ "Gladiators Arena Yalahar": {
+  "fisico": 5,
+  "morte": -5,
+  "sagrado": 10
+ },
+ "Goblins Femor Hills": {
+  "energia": 20,
+  "morte": -10,
+  "sagrado": 20,
+  "terra": -10
+ },
+ "Hellspawns yalahar": {
+  "energia": 5,
+  "fisico": 2,
+  "fogo": 20,
+  "gelo": -5,
+  "morte": 22,
+  "sagrado": 40,
+  "terra": 40
+ },
+ "Hero Fortress Entrance": {
+  "afogamento": 67,
+  "drenoDeVida": 33,
+  "energia": 20,
+  "fisico": 2,
+  "fogo": 5,
+  "gelo": 3,
+  "morte": 43,
+  "sagrado": 7,
+  "terra": 83
+ },
+ "Hive Queen Chamber": {
+  "energia": 5,
+  "fogo": 8,
+  "gelo": 8,
+  "morte": 2,
+  "sagrado": -12,
+  "terra": 67
+ },
+ "Hive Tower": {
+  "energia": -7,
+  "fisico": 2,
+  "fogo": 3,
+  "gelo": -6,
+  "morte": 8,
+  "sagrado": -3,
+  "terra": 100
+ },
+ "Ice Witch Tower": {
+  "energia": -10,
+  "fogo": 50,
+  "gelo": 100,
+  "morte": -10,
+  "sagrado": 30,
+  "terra": 40
+ },
+ "Inquisition Entrance": {
+  "energia": 30,
+  "fisico": 10,
+  "fogo": 100,
+  "gelo": -20,
+  "morte": 20,
+  "sagrado": -10,
+  "terra": 20
+ },
+ "Killer Caiman Caverns": {
+  "energia": -10,
+  "fogo": -5,
+  "gelo": 10,
+  "terra": 20
+ },
+ "Killers Caiman Caverns": {
+  "energia": -10,
+  "fogo": -5,
+  "gelo": 10,
+  "terra": 20
+ },
+ "Larva Ankrahmuns": {
+  "energia": 10,
+  "fogo": -10,
+  "gelo": -5,
+  "terra": 100
+ },
+ "Lava Hot Spot": {
+  "energia": 20,
+  "fogo": 100,
+  "gelo": -10,
+  "terra": 80
+ },
+ "Lizard Chosen's Dojo": {
+  "energia": 20,
+  "fisico": 10,
+  "gelo": 15,
+  "sagrado": -15,
+  "terra": 100
+ },
+ "Lizard City": {
+  "fisico": 20,
+  "fogo": 72,
+  "gelo": -3,
+  "terra": 100
+ },
+ "Mad Mage Room": {
+  "afogamento": 40,
+  "drenoDeVida": 60,
+  "energia": -1,
+  "fogo": 36,
+  "gelo": 2,
+  "morte": 40,
+  "sagrado": -10,
+  "terra": 75
+ },
+ "Mintwallin": {
+  "energia": 7,
+  "fogo": 13,
+  "gelo": -10,
+  "morte": -7,
+  "sagrado": 10,
+  "terra": 7
+ },
+ "Mushroom Gardens": {
+  "energia": 20,
+  "fogo": -10,
+  "gelo": 20,
+  "terra": 100
+ },
+ "Mutated Humans": {
+  "afogamento": 50,
+  "drenoDeVida": 50,
+  "energia": -5,
+  "fogo": -5,
+  "gelo": 20,
+  "morte": 50,
+  "sagrado": -12,
+  "terra": 100
+ },
+ "Nargor Pirate island": {
+  "energia": -2,
+  "fisico": -2,
+  "fogo": -8,
+  "gelo": -5,
+  "morte": -5,
+  "sagrado": 10,
+  "terra": 15
+ },
+ "Orc Fortress": {
+  "energia": 28,
+  "fogo": 33,
+  "morte": -8,
+  "sagrado": 13,
+  "terra": -10
+ },
+ "Orcs Edron Cave": {
+  "energia": 23,
+  "morte": -10,
+  "sagrado": 13,
+  "terra": -10
+ },
+ "Petrified Hollow": {
+  "energia": 55,
+  "fisico": 10,
+  "fogo": -8,
+  "gelo": 12,
+  "morte": 22,
+  "sagrado": 25,
+  "terra": 100
+ },
+ "Pirates Yalahar": {
+  "energia": -2,
+  "fogo": -5,
+  "morte": 48,
+  "sagrado": -2,
+  "terra": 5
+ },
+ "Pits of Inferno Entrance": {
+  "energia": 8,
+  "fogo": 100,
+  "gelo": -10,
+  "terra": 78
+ },
+ "Quara's Domain Yalahar": {
+  "afogamento": 100,
+  "drenoDeVida": 100,
+  "energia": -25,
+  "fogo": 100,
+  "gelo": 100,
+  "terra": -10
+ },
+ "Quara's entrance Yalahar": {
+  "afogamento": 100,
+  "drenoDeVida": 100,
+  "energia": -15,
+  "fogo": 100,
+  "gelo": 100,
+  "terra": -10
+ },
+ "Return of the beholder": {
+  "drenoDeVida": 100,
+  "energia": 10,
+  "fogo": -10,
+  "gelo": 25,
+  "morte": 15,
+  "terra": 100
+ },
+ "Rotworms Darashia": {},
+ "Salamander Cave": {
+  "fogo": -3,
+  "gelo": 2,
+  "terra": 2
+ },
+ "Scarabs Cave": {
+  "energia": 10,
+  "fisico": 5,
+  "fogo": -18,
+  "gelo": 20,
+  "terra": 100
+ },
+ "Souleater's Canyon": {
+  "drenoDeVida": 50,
+  "energia": -5,
+  "fisico": 30,
+  "fogo": -5,
+  "gelo": 25,
+  "morte": 75,
+  "sagrado": -5,
+  "terra": 50
+ },
+ "Stonerefiners Cavern": {
+  "fisico": -20,
+  "fogo": -10,
+  "gelo": -20,
+  "terra": 20
+ },
+ "Tarpit Tomb First Floor": {
+  "afogamento": 50,
+  "drenoDeVida": 50,
+  "morte": 100,
+  "sagrado": -25
+ },
+ "Terramites Ankrahmun": {
+  "energia": -5,
+  "fisico": 5,
+  "fogo": -10,
+  "terra": 20
+ },
+ "The Banshee Quest": {
+  "afogamento": 100,
+  "drenoDeVida": 100,
+  "fogo": 100,
+  "morte": 100,
+  "sagrado": -25,
+  "terra": 100
+ },
+ "The Behemoth Quest": {
+  "fisico": 15,
+  "fogo": 25,
+  "gelo": 5,
+  "morte": 2,
+  "sagrado": 25,
+  "terra": 90
+ },
+ "The Hive Entrance": {
+  "energia": 33,
+  "fisico": -1,
+  "fogo": -9,
+  "gelo": -3,
+  "sagrado": -4,
+  "terra": 100
+ },
+ "Thunderscar Peak": {
+  "drenoDeVida": 100,
+  "energia": 100,
+  "fisico": 18,
+  "fogo": 60,
+  "gelo": -2,
+  "sagrado": 2,
+  "terra": 30
+ },
+ "Tortoise Meriana": {
+  "fisico": 25,
+  "fogo": -10,
+  "gelo": 20,
+  "terra": 20
+ },
+ "Upper Spikes": {
+  "energia": 20,
+  "fogo": 100,
+  "gelo": -10,
+  "terra": 80
+ },
+ "Ushuriel Seal": {
+  "energia": 10,
+  "fisico": 10,
+  "fogo": 30,
+  "gelo": -10,
+  "morte": -5,
+  "sagrado": 30,
+  "terra": 80
+ },
+ "Vampire hell": {
+  "afogamento": 100,
+  "drenoDeVida": 100,
+  "fisico": 12,
+  "fogo": 45,
+  "morte": 100,
+  "sagrado": -25,
+  "terra": 100
+ },
+ "Wasps Dungeons": {
+  "fogo": -10,
+  "terra": 100
+ },
+ "Water Elementals Cavern": {
+  "afogamento": 100,
+  "drenoDeVida": 100,
+  "energia": -25,
+  "fisico": 30,
+  "fogo": 100,
+  "gelo": 100,
+  "morte": 50,
+  "sagrado": 50,
+  "terra": 100
+ },
+ "Wolves Den": {
+  "gelo": -10,
+  "morte": -5,
+  "sagrado": 30
+ },
+ "Yalahar Worker Golem": {
+  "energia": -5,
+  "fisico": 10,
+  "gelo": 10,
+  "morte": 10,
+  "sagrado": 50,
+  "terra": 50
+ },
+ "Zao Caverns": {
+  "drenoDeVida": 50,
+  "energia": -5,
+  "fisico": -5,
+  "fogo": -10,
+  "gelo": -5,
+  "morte": 100,
+  "terra": 100
+ },
+ "Zao Entrance": {
+  "energia": 10,
+  "fogo": 8,
+  "gelo": 7,
+  "terra": 100
+ },
+ "Zombies Yalahar Cemetery Quarter": {
+  "afogamento": 100,
+  "drenoDeVida": 100,
+  "energia": 100,
+  "gelo": 100,
+  "morte": 100,
+  "terra": 100
+ },
+ "Zugurosh Seal": {
+  "energia": -20,
+  "fisico": 20,
+  "fogo": 100,
+  "gelo": 100,
+  "morte": 100,
+  "sagrado": 100
+ }
+}

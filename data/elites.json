@@ -1,0 +1,524 @@
+{
+ "Apocalypse": {
+  "energia": 100,
+  "terra": 100,
+  "fogo": 100,
+  "drenoDeVida": 100,
+  "gelo": 10,
+  "morte": 1
+ },
+ "Ashfalor": {},
+ "Ashmunrah": {
+  "fisico": 10,
+  "energia": 20,
+  "terra": 25,
+  "fogo": -5,
+  "drenoDeVida": 100,
+  "gelo": 20,
+  "sagrado": -10,
+  "morte": 100
+ },
+ "Balerion": {
+  "energia": 100,
+  "terra": 100,
+  "fogo": 100,
+  "gelo": 100,
+  "morte": 50
+ },
+ "Bazir": {
+  "energia": 100,
+  "terra": 100,
+  "fogo": 100,
+  "drenoDeVida": 100
+ },
+ "Beru": {
+  "fisico": 5,
+  "energia": -5,
+  "terra": 20,
+  "fogo": -10,
+  "gelo": -10
+ },
+ "Black Knight": {
+  "fisico": 10,
+  "energia": 80,
+  "terra": 100,
+  "fogo": 95,
+  "gelo": 100,
+  "sagrado": -8,
+  "morte": 20
+ },
+ "Black Widow": {
+  "energia": 20,
+  "terra": 100,
+  "fogo": -10,
+  "gelo": 20
+ },
+ "Bonehead the Cursed": {
+  "fisico": -10,
+  "energia": -10,
+  "terra": 20,
+  "fogo": -10
+ },
+ "Brimstone Terror": {
+  "fisico": -15,
+  "energia": -10,
+  "terra": 10,
+  "sagrado": -5,
+  "morte": 40
+ },
+ "Captain Jones": {
+  "fisico": 20,
+  "energia": 10,
+  "terra": 100,
+  "fogo": 10,
+  "gelo": 20
+ },
+ "Caraxes": {
+  "energia": 20,
+  "terra": 100,
+  "gelo": 10
+ },
+ "Centopéia": {
+  "energia": 10,
+  "terra": 100,
+  "fogo": -15,
+  "gelo": 20
+ },
+ "Cerebro Is Back": {
+  "fisico": 15,
+  "energia": 10,
+  "terra": 100,
+  "fogo": -15,
+  "gelo": 20,
+  "sagrado": -20,
+  "morte": 100
+ },
+ "Cult Leader": {
+  "fisico": 100,
+  "energia": 100,
+  "terra": 100,
+  "fogo": 100,
+  "drenoDeVida": 100,
+  "drenoDeMana": 100,
+  "afogamento": 100,
+  "gelo": 100,
+  "sagrado": 100,
+  "morte": 100
+ },
+ "Cursed Gladiator": {
+  "terra": 20,
+  "fogo": -5
+ },
+ "Davy Jones": {
+  "terra": 20,
+  "fogo": -10,
+  "gelo": -5,
+  "sagrado": 10,
+  "morte": -5
+ },
+ "Deepling Master Librarian": {
+  "energia": -10,
+  "terra": -10,
+  "fogo": 100,
+  "gelo": 100,
+  "morte": 50
+ },
+ "Diseased Fred": {
+  "fisico": 15,
+  "energia": 15,
+  "terra": 100,
+  "fogo": 15,
+  "gelo": 15,
+  "sagrado": 15,
+  "morte": 55
+ },
+ "Draculla": {
+  "fisico": 40,
+  "terra": 100,
+  "drenoDeVida": 100,
+  "sagrado": -5,
+  "morte": 100
+ },
+ "Drogon": {
+  "energia": 20,
+  "terra": 80,
+  "fogo": 100,
+  "gelo": -10
+ },
+ "Dwarf Elder": {
+  "energia": 10,
+  "terra": 20,
+  "fogo": 60,
+  "gelo": -5,
+  "sagrado": 10,
+  "morte": -10
+ },
+ "Dwarf Guard Elite": {
+  "fisico": 20,
+  "terra": 20,
+  "fogo": -5,
+  "morte": -5
+ },
+ "Flameborn": {
+  "fisico": 20,
+  "energia": 10,
+  "terra": 80,
+  "fogo": 40,
+  "gelo": -10,
+  "sagrado": 30,
+  "morte": -5
+ },
+ "Genio": {
+  "energia": 60,
+  "terra": 10,
+  "fogo": 90,
+  "gelo": -5,
+  "sagrado": 20,
+  "morte": -8
+ },
+ "Giant Wasp": {
+  "fisico": -2,
+  "energia": 25,
+  "terra": 100,
+  "fogo": -10,
+  "sagrado": -7,
+  "morte": 5
+ },
+ "Goblin Assassin": {
+  "energia": 20,
+  "terra": -10,
+  "sagrado": 20,
+  "morte": -10
+ },
+ "Gordzila": {
+  "fogo": 30,
+  "gelo": 30,
+  "sagrado": 1,
+  "morte": 100
+ },
+ "Gromaxx Uivado Infernal": {
+  "energia": 20,
+  "terra": -10,
+  "fogo": 80,
+  "sagrado": 10,
+  "morte": -5
+ },
+ "Gul'Dhan": {
+  "terra": 20,
+  "fogo": 10,
+  "gelo": 5,
+  "morte": 5
+ },
+ "Hive Queen": {
+  "fogo": -30,
+  "gelo": 25
+ },
+ "Infernatil": {
+  "energia": 100,
+  "terra": 100,
+  "fogo": 100,
+  "sagrado": -5,
+  "morte": 100
+ },
+ "Janna Pouldmore": {
+  "energia": -5,
+  "terra": 80,
+  "sagrado": 50
+ },
+ "Jaws": {
+  "fisico": 5,
+  "energia": -5,
+  "terra": 20,
+  "fogo": 55,
+  "afogamento": 100,
+  "gelo": 10
+ },
+ "Linck": {
+  "energia": 5,
+  "morte": 10
+ },
+ "Mad Mage": {
+  "fisico": -20,
+  "energia": 100,
+  "fogo": 100
+ },
+ "Mestre Dos Mortos": {},
+ "Metal Weregargoylemon": {
+  "fisico": 15,
+  "energia": -10,
+  "terra": 100,
+  "fogo": 10,
+  "gelo": -5,
+  "morte": 80
+ },
+ "Minotaur Idol": {
+  "energia": 30,
+  "terra": 40,
+  "fogo": 25,
+  "drenoDeVida": 32,
+  "drenoDeMana": 30,
+  "sagrado": 50,
+  "morte": 50
+ },
+ "Mr 0": {
+  "fisico": 10,
+  "energia": -5,
+  "terra": 5,
+  "fogo": 25,
+  "gelo": -25,
+  "sagrado": -15,
+  "morte": 25
+ },
+ "Neptulon": {
+  "fisico": 45,
+  "terra": 100,
+  "fogo": 100,
+  "afogamento": 100,
+  "gelo": 100,
+  "sagrado": 40,
+  "morte": 1
+ },
+ "Norgle Glacierbeard": {
+  "energia": -10,
+  "gelo": 100,
+  "morte": -1
+ },
+ "Obujos": {
+  "fisico": 25,
+  "energia": 15,
+  "terra": 100,
+  "fogo": 60,
+  "gelo": 20,
+  "morte": 30
+ },
+ "Olhao": {
+  "fisico": 30,
+  "energia": 10,
+  "terra": 20,
+  "fogo": 35,
+  "gelo": 40,
+  "sagrado": -5,
+  "morte": 20
+ },
+ "Pesso&Vesso": {
+  "energia": 10,
+  "terra": -20,
+  "fogo": 50,
+  "gelo": 50,
+  "morte": -10
+ },
+ "Pinky": {
+  "terra": 65,
+  "gelo": 20,
+  "morte": 100
+ },
+ "Plunder Patriarch": {},
+ "Polifemo": {
+  "energia": 25,
+  "terra": -10,
+  "sagrado": 20,
+  "morte": -10
+ },
+ "Preceptor Lazare": {
+  "fisico": 20,
+  "energia": 50,
+  "fogo": 50,
+  "gelo": 50,
+  "morte": 50
+ },
+ "Pumin": {
+  "fisico": 35,
+  "energia": 35,
+  "terra": 35,
+  "fogo": 35,
+  "gelo": 35,
+  "sagrado": 35,
+  "morte": 35
+ },
+ "Quara Fishman": {
+  "energia": -10,
+  "terra": -10,
+  "fogo": 20,
+  "sagrado": 15,
+  "morte": 10
+ },
+ "Ragnar Lohtbrok": {
+  "fisico": -50,
+  "energia": -30,
+  "terra": -20,
+  "fogo": -30,
+  "gelo": -30
+ },
+ "Renegade Orc": {
+  "energia": 20,
+  "terra": -10,
+  "fogo": 100,
+  "sagrado": 20,
+  "morte": -2
+ },
+ "Rex": {
+  "fisico": 35,
+  "energia": 20,
+  "terra": 100,
+  "fogo": 45,
+  "gelo": 15,
+  "morte": 35
+ },
+ "Rhaegal": {
+  "energia": 20,
+  "terra": 80,
+  "fogo": 100,
+  "gelo": -10
+ },
+ "Rola Bosta Ancestral": {
+  "fisico": 10,
+  "energia": 20,
+  "terra": 100,
+  "fogo": -20,
+  "gelo": -5
+ },
+ "Sandstone Scorpion": {
+  "energia": -10,
+  "terra": 90,
+  "fogo": 40,
+  "gelo": -10,
+  "sagrado": -10
+ },
+ "Smash": {
+  "fisico": 20,
+  "energia": -5,
+  "terra": -5,
+  "fogo": 10,
+  "gelo": 10,
+  "sagrado": -20,
+  "morte": 25
+ },
+ "Spidris Elite": {
+  "energia": -5,
+  "terra": 100,
+  "fogo": 15,
+  "gelo": -3,
+  "sagrado": -10,
+  "morte": 10
+ },
+ "Stone Devourer": {
+  "fisico": 10,
+  "energia": 30,
+  "terra": 100,
+  "fogo": -5,
+  "gelo": 30,
+  "sagrado": 30,
+  "morte": 30
+ },
+ "Sylvanas Windrunner": {
+  "energia": 1,
+  "fogo": 1,
+  "gelo": 1,
+  "morte": 1
+ },
+ "Tafariel": {},
+ "Tanjis": {
+  "fisico": -1,
+  "energia": 10,
+  "terra": -5,
+  "fogo": 100,
+  "gelo": 100,
+  "morte": 25
+ },
+ "Terra Worm": {
+  "fisico": 15,
+  "terra": 100,
+  "fogo": 30,
+  "gelo": 30
+ },
+ "The Bloodscaled": {
+  "fisico": -20,
+  "energia": 100,
+  "terra": -20,
+  "fogo": 50
+ },
+ "The Emperor": {
+  "energia": 100,
+  "terra": 80,
+  "fogo": 30
+ },
+ "The Red Warrior": {
+  "energia": 10,
+  "fogo": 15,
+  "gelo": -20
+ },
+ "The Weeping Matriarch": {
+  "fisico": 100,
+  "fogo": -20,
+  "gelo": 70
+ },
+ "Trembo Caiman": {
+  "fisico": 25,
+  "energia": -5,
+  "terra": 20,
+  "fogo": 35,
+  "gelo": -15,
+  "sagrado": -20,
+  "morte": 60
+ },
+ "Velocilizard": {
+  "fisico": 20,
+  "energia": 10,
+  "terra": 10,
+  "gelo": -10,
+  "sagrado": -10,
+  "morte": -10
+ },
+ "Verminor": {
+  "energia": 100,
+  "terra": 100,
+  "fogo": 100,
+  "drenoDeVida": 100
+ },
+ "Viscous": {
+  "fisico": 5,
+  "terra": 40,
+  "fogo": 80,
+  "gelo": -10,
+  "sagrado": -5
+ },
+ "Viserion": {
+  "fisico": 5,
+  "terra": 100,
+  "fogo": 100,
+  "drenoDeVida": 100,
+  "gelo": 100,
+  "morte": 10
+ },
+ "Witch Doctor": {
+  "terra": 100,
+  "fogo": -15,
+  "gelo": -10,
+  "sagrado": 35,
+  "morte": -10
+ },
+ "Worgen": {
+  "energia": 15,
+  "fogo": -5,
+  "gelo": -5,
+  "sagrado": -5
+ },
+ "Xenia": {
+  "fisico": 50
+ },
+ "Xul'gath, the Soul Devourer": {
+  "energia": -100,
+  "terra": 80,
+  "fogo": 80,
+  "drenoDeVida": 80,
+  "drenoDeMana": 80,
+  "afogamento": 80,
+  "sagrado": -100,
+  "morte": 80
+ },
+ "Yeti": {
+  "energia": -8,
+  "fogo": -10,
+  "gelo": 100
+ }
+}
