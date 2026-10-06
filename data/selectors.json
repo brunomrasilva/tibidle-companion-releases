@@ -64,6 +64,9 @@
 
     "chestOpenNow":    { "text": "ABRIR AGORA" },
     "chestResultClose": { "css": "[data-testid='victory-modal'] [data-testid='victory-guardar']" },
+    "chestSweep":      { "css": "[data-testid='lootbox-sweep']" },
+    "chestSweepConfirm": { "css": "[data-testid='box-sweep-confirm']" },
+    "chestSweepExit":  { "css": "[data-testid='box-sweep-sair']" },
     "bestiaryTrackerToggle": { "css": "[data-testid='hud-bestiary-track']" },
     "allIslands":      { "css": "[data-testid='explore-todas-ilhas']" },
     "closeDialog":     { "css": "[data-testid='screen-hunts-back']" }
