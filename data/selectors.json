@@ -93,6 +93,8 @@
     // ("Você está caçando aqui"); aria-pressed é só o card destacado (ex.: aberto por um card do bestiário).
     "huntName": { "css": "[data-testid^='hunt-item-'].s-explore-card--aqui img[alt]", "attr": "alt" },
     "island":   { "css": "[data-testid^='explore-ilha-'][aria-pressed='true']", "attr": "data-testid", "regex": "explore-ilha-(.+)" },
-    "lure":     { "css": "", "regex": "(\\d+)" }
+    "lure":     { "css": "", "regex": "(\\d+)" },
+    // Tela inicial (antes de "ENTRAR NO JOGO"): nome do personagem/conta.
+    "accountName": { "css": "[data-testid='account-name']" }
   }
 }
