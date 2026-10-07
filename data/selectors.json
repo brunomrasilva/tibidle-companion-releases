@@ -34,6 +34,7 @@
     "summaryClose":    { "css": "[data-testid='summary-close']" },
     "loginBannerClose": { "css": "[data-testid='login-banner-close']" },
     "eventsClose":     { "css": "[data-testid='eventos-close']" },
+    "raidClosedOk":    { "css": "[data-testid='invasao-fechamento-ok']" },
     "trainOpen":       { "css": "[data-testid='actionbar-train']" },
     "trainStart":      { "css": "[data-testid='train-start']" },
     "huntConfirm":     { "css": "[data-testid='hunt-confirm']" },
