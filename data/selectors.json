@@ -15,7 +15,7 @@
 
   // css e/ou text (maiúsculas não importam). match: exact (padrão) | contains | prefix.
   // scope: só procura dentro do menor bloco (scope.css) que contém scope.text. key: envia uma tecla.
-  // Variáveis: {huntName}, {island}, {boss}.
+  // Variáveis: {huntName}, {island}, {boss}, {iid}, {n}.
   "buttons": {
     "play":            { "css": "[data-testid='actionbar-hunt']" },
     "huntsButton":     { "css": "[data-testid='actionbar-explore']" },
@@ -69,6 +69,20 @@
     "chestSweepConfirm": { "css": "[data-testid='box-sweep-confirm']" },
     "chestSweepExit":  { "css": "[data-testid='box-sweep-sair']" },
     "bestiaryTrackerToggle": { "css": "[data-testid='hud-bestiary-track']" },
+
+    // Forja do Uzgod (NAVEGAÇÃO ▸ UZGOD; o grupo anda até ele e a janela abre na chegada)
+    "navMenu":         { "css": "[data-testid='topmenu-navegacao']" },
+    "navUzgod":        { "css": "[data-testid='nav-uzgod']" },
+    "forgeTabDismantle": { "css": "[data-testid='forja-aba-desmanche']" },
+    "forgeLock":       { "css": "[data-testid='forja-cadeado']" },
+    "forgeClear":      { "css": "[data-testid='forja-limpar']" },
+    "forgeSelect":     { "css": "[data-testid='forja-selecionar']" },
+    "forgeSelectAll":  { "css": "[data-testid='forja-selecionar-todos']" },
+    "forgeSelectRarity": { "css": "[data-testid='forja-selecionar-raridade-{n}']" },
+    "forgeDismantleCard": { "css": "[data-testid='forja-desmanche-cartao-{iid}'] button" },
+    "forgeDismantle":  { "css": "[data-testid='forja-desmanchar']" },
+    "forgeConfirm":    { "css": "[data-testid='forja-confirmacao'] [data-testid='forja-confirmar']" },
+    "forgeClose":      { "css": "[data-testid='window-close-forja']" },
     "allIslands":      { "css": "[data-testid='explore-todas-ilhas']" },
     "closeDialog":     { "css": "[data-testid='screen-hunts-back']" }
   },
