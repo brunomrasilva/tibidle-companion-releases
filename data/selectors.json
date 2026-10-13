@@ -2,7 +2,7 @@
   // Mapeado a partir dos snapshots de 01/10/2026 (assets v167). Prefira data-testid: não muda com o idioma.
   // Itens vazios ({}) ainda dependem de snapshot. Com "version" = "UNMAPPED" o modo automático fica
   // desligado; os botões F1–F4 do painel funcionam para testar. Depois de validar, troque para "v167".
-  "version": "v189",
+  "version": "v196",
 
   // A ordem importa: a primeira tela detectada vence.
   "screens": {
@@ -95,6 +95,9 @@
 
   "flags": {
     "raidSignedUp": { "css": "[data-testid='invasao-icone-topo'][data-topo='inscrito']" },
+    // Tela "Em manutenção" (servidor respondeu play_not_allowed) e o "Reconectando ao jogo" de quando a conexão cai.
+    "maintenance":  { "css": "[data-testid='not-allowed']" },
+    "reconnecting": { "css": "[data-testid='admission-pending-overlay']" },
     "partyDead":    {},
     "fightWon":     { "css": "[data-testid='victory-modal']" },
     "fightLost":    {},
