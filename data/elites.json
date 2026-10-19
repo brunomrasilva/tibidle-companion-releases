@@ -94,16 +94,16 @@
   "morte": 100
  },
  "Cult Leader": {
-  "fisico": 100,
-  "energia": 100,
-  "terra": 100,
-  "fogo": 100,
-  "drenoDeVida": 100,
-  "drenoDeMana": 100,
-  "afogamento": 100,
-  "gelo": 100,
-  "sagrado": 100,
-  "morte": 100
+  "fisico": 1,
+  "energia": 1,
+  "terra": 1,
+  "fogo": 1,
+  "drenoDeVida": 1,
+  "drenoDeMana": 1,
+  "afogamento": 1,
+  "gelo": 1,
+  "sagrado": 1,
+  "morte": 1
  },
  "Cursed Gladiator": {
   "terra": 20,
@@ -520,5 +520,245 @@
   "energia": -8,
   "fogo": -10,
   "gelo": 100
+ },
+ "Abyssador": {
+  "energia": 15,
+  "terra": 100,
+  "fogo": 15,
+  "gelo": 15,
+  "morte": 15
+ },
+ "Aftershock": {
+  "fisico": 100,
+  "energia": 100,
+  "fogo": 100,
+  "gelo": 100
+ },
+ "Annihilon": {
+  "energia": 95,
+  "gelo": 20,
+  "sagrado": -5,
+  "morte": 95
+ },
+ "Beelzebub": {
+  "fogo": 30,
+  "gelo": -10,
+  "morte": 50
+ },
+ "Cordyceps": {
+  "energia": 10,
+  "fogo": 10,
+  "sagrado": 20
+ },
+ "Countess Sorrow": {
+  "fisico": 100,
+  "energia": 10,
+  "terra": 100,
+  "fogo": -10,
+  "drenoDeVida": 100,
+  "gelo": 50,
+  "morte": 60
+ },
+ "Deathstrike": {
+  "energia": 40,
+  "terra": 100,
+  "fogo": 50,
+  "drenoDeVida": 10,
+  "gelo": 40,
+  "sagrado": 20
+ },
+ "Dracola": {
+  "terra": 100,
+  "fogo": 100,
+  "afogamento": 100,
+  "gelo": 100,
+  "sagrado": -100,
+  "morte": 100
+ },
+ "Dragonking Zyrtarch": {
+  "terra": 100,
+  "fogo": 100,
+  "drenoDeVida": 100,
+  "drenoDeMana": 100,
+  "afogamento": 100,
+  "gelo": -10
+ },
+ "Esmeralda": {
+  "terra": 100,
+  "fogo": -10,
+  "morte": 100
+ },
+ "Gnomevil": {
+  "fisico": 10,
+  "energia": 100,
+  "terra": 100,
+  "fogo": 50,
+  "gelo": 50,
+  "sagrado": 50,
+  "morte": 27
+ },
+ "Gravedigger": {
+  "energia": 100,
+  "terra": -5,
+  "fogo": -10,
+  "gelo": 100,
+  "sagrado": -5,
+  "morte": 10
+ },
+ "Hellgorak": {
+  "fisico": 1,
+  "energia": 98,
+  "terra": 98,
+  "fogo": 98,
+  "drenoDeVida": 100,
+  "afogamento": -205,
+  "gelo": 98,
+  "sagrado": 95
+ },
+ "Lady Tenebris": {
+  "energia": 5,
+  "terra": 20,
+  "fogo": 5,
+  "gelo": 15,
+  "sagrado": 1
+ },
+ "Latrivan": {
+  "energia": 1,
+  "fogo": 100,
+  "gelo": -1,
+  "morte": 100
+ },
+ "Lloyd": {
+  "fogo": 5,
+  "sagrado": 10,
+  "morte": 50
+ },
+ "Madareth": {
+  "energia": 99,
+  "fogo": -1,
+  "gelo": 1
+ },
+ "Magma Wolf": {
+  "energia": 10,
+  "terra": 5,
+  "fogo": 100,
+  "gelo": -5
+ },
+ "Massacre": {
+  "energia": -1,
+  "terra": 1,
+  "fogo": 100,
+  "gelo": 10,
+  "morte": -10
+ },
+ "Merlin": {},
+ "Misguided Shadow": {},
+ "Mr. Punish": {
+  "energia": 100,
+  "terra": 100,
+  "fogo": 100,
+  "gelo": 100,
+  "morte": -10
+ },
+ "Outburst": {
+  "energia": -10,
+  "fogo": -10,
+  "morte": 20
+ },
+ "Ravenous Hunger": {
+  "terra": 100,
+  "morte": 100
+ },
+ "Rupture": {},
+ "Solid Frozen Horror": {
+  "terra": 100,
+  "drenoDeVida": 100,
+  "drenoDeMana": 100,
+  "afogamento": 100,
+  "gelo": 60
+ },
+ "Sugar Mommy": {
+  "energia": 10,
+  "terra": -5,
+  "fogo": -5,
+  "gelo": 15
+ },
+ "The End of Days": {},
+ "The Enraged Thorn Knight": {
+  "morte": -100
+ },
+ "The False God": {
+  "fisico": 10,
+  "energia": 10,
+  "fogo": 10,
+  "morte": 50
+ },
+ "The Handmaiden": {
+  "fisico": 10,
+  "energia": 15,
+  "terra": 100,
+  "fogo": 100,
+  "gelo": 15,
+  "sagrado": -10,
+  "morte": 100
+ },
+ "The Imperor": {
+  "fogo": 100
+ },
+ "The Plasmother": {
+  "fisico": 10,
+  "energia": 10,
+  "terra": 100,
+  "sagrado": -15,
+  "morte": -10
+ },
+ "The Sandking": {},
+ "The Scourge of Oblivion": {},
+ "The Time Guardian": {
+  "energia": 80,
+  "terra": 80,
+  "fogo": 80,
+  "drenoDeVida": 80,
+  "drenoDeMana": 80,
+  "afogamento": 80,
+  "gelo": 80,
+  "sagrado": 80
+ },
+ "The Unarmored Voidborn": {
+  "fisico": -300,
+  "energia": -255,
+  "terra": -255,
+  "fogo": -255,
+  "gelo": -300,
+  "sagrado": -300,
+  "morte": -300
+ },
+ "Turion Lunister": {},
+ "Ushuriel": {
+  "fisico": 10,
+  "energia": 30,
+  "terra": 30,
+  "fogo": 30,
+  "drenoDeVida": 100,
+  "gelo": 30,
+  "sagrado": 25,
+  "morte": 20
+ },
+ "Versperoth": {
+  "fisico": 30,
+  "energia": 45,
+  "fogo": 50,
+  "gelo": 45,
+  "sagrado": 40,
+  "morte": 15
+ },
+ "World Devourer": {},
+ "Zugurosh": {
+  "fisico": 50,
+  "energia": 30,
+  "terra": 30,
+  "fogo": 30,
+  "gelo": 30,
+  "sagrado": 30
  }
 }

@@ -6,6 +6,16 @@
   "morte": -5,
   "sagrado": 2
  },
+ "Annihilon Seal": {
+  "afogamento": 33,
+  "drenoDeVida": 33,
+  "energia": 33,
+  "fogo": 100,
+  "gelo": 37,
+  "morte": 37,
+  "sagrado": -26,
+  "terra": 82
+ },
  "Barbarian Camp": {
   "drenoDeVida": 50,
   "energia": 20,
@@ -64,13 +74,21 @@
   "terra": 20
  },
  "Crystal Keeper": {
-  "energia": 90,
-  "fisico": 20,
-  "fogo": -15,
-  "gelo": 15,
-  "morte": 45,
-  "sagrado": 50,
-  "terra": 100
+  "energia": 28,
+  "fisico": 13,
+  "fogo": 33,
+  "gelo": 14,
+  "morte": 18,
+  "sagrado": 13,
+  "terra": 67
+ },
+ "Cults Carlin": {
+  "energia": 5,
+  "fisico": 5,
+  "fogo": 5,
+  "gelo": 5,
+  "sagrado": 5,
+  "terra": 5
  },
  "Cults Goroma": {
   "energia": -7,
@@ -99,6 +117,15 @@
   "gelo": -10,
   "morte": -10,
   "sagrado": 10
+ },
+ "Death Portal": {
+  "energia": 27,
+  "fisico": 12,
+  "fogo": 42,
+  "gelo": 3,
+  "morte": -5,
+  "sagrado": 37,
+  "terra": 12
  },
  "Deepling Library": {
   "afogamento": 50,
@@ -156,6 +183,15 @@
   "sagrado": 8,
   "terra": 100
  },
+ "Earth Portal": {
+  "energia": -10,
+  "fisico": 5,
+  "fogo": 18,
+  "gelo": 5,
+  "morte": 10,
+  "sagrado": 25,
+  "terra": 65
+ },
  "Elfs Shadowthorn": {
   "morte": -10,
   "sagrado": 20
@@ -163,6 +199,22 @@
  "Elfs Yalahar": {
   "morte": -10,
   "sagrado": 20
+ },
+ "Energy Portal": {
+  "energia": 50,
+  "fogo": 17,
+  "gelo": -2,
+  "morte": -3,
+  "sagrado": 35,
+  "terra": 48
+ },
+ "Feyrist Surface": {
+  "fisico": -8,
+  "fogo": -7,
+  "gelo": -2,
+  "morte": 40,
+  "sagrado": 43,
+  "terra": 50
  },
  "Fiehonja Stairway": {
   "afogamento": 67,
@@ -179,6 +231,16 @@
   "gelo": 10,
   "sagrado": -30,
   "terra": 100
+ },
+ "Foreign Quarter": {
+  "afogamento": 50,
+  "drenoDeVida": 50,
+  "energia": 10,
+  "fogo": 5,
+  "gelo": 10,
+  "morte": 48,
+  "sagrado": 5,
+  "terra": 90
  },
  "Frozen Hell": {
   "drenoDeVida": 50,
@@ -213,6 +275,17 @@
   "morte": -10,
   "sagrado": 20,
   "terra": -10
+ },
+ "Hellgorak Seal": {
+  "afogamento": 25,
+  "drenoDeVida": 50,
+  "energia": 12,
+  "fisico": 14,
+  "fogo": 82,
+  "gelo": -8,
+  "morte": 30,
+  "sagrado": -6,
+  "terra": 20
  },
  "Hellspawns yalahar": {
   "energia": 5,
@@ -251,6 +324,25 @@
   "sagrado": -3,
   "terra": 100
  },
+ "Holy Portal": {
+  "energia": -8,
+  "fisico": 3,
+  "fogo": -7,
+  "gelo": 23,
+  "morte": 8,
+  "sagrado": 27,
+  "terra": 37
+ },
+ "Ice Portal": {
+  "drenoDeVida": 33,
+  "energia": 37,
+  "fisico": 17,
+  "fogo": 27,
+  "gelo": 2,
+  "morte": 40,
+  "sagrado": -11,
+  "terra": 47
+ },
  "Ice Witch Tower": {
   "energia": -10,
   "fogo": 50,
@@ -260,13 +352,23 @@
   "terra": 40
  },
  "Inquisition Entrance": {
-  "energia": 30,
-  "fisico": 10,
+  "energia": 27,
+  "fisico": 37,
   "fogo": 100,
   "gelo": -20,
   "morte": 20,
-  "sagrado": -10,
-  "terra": 20
+  "sagrado": -3,
+  "terra": 7
+ },
+ "Inquisition Warlocks": {
+  "afogamento": 25,
+  "energia": 39,
+  "fisico": 1,
+  "fogo": 48,
+  "gelo": 8,
+  "morte": 2,
+  "sagrado": -2,
+  "terra": 79
  },
  "Killer Caiman Caverns": {
   "energia": -10,
@@ -286,11 +388,22 @@
   "gelo": -5,
   "terra": 100
  },
+ "Latrivan & Golgordan Seal": {
+  "energia": 7,
+  "fisico": -3,
+  "fogo": 18,
+  "gelo": 18,
+  "morte": 37,
+  "sagrado": -13,
+  "terra": 100
+ },
  "Lava Hot Spot": {
-  "energia": 20,
+  "energia": 17,
+  "fisico": 17,
   "fogo": 100,
   "gelo": -10,
-  "terra": 80
+  "morte": 8,
+  "terra": 60
  },
  "Lizard Chosen's Dojo": {
   "energia": 20,
@@ -305,6 +418,15 @@
   "gelo": -3,
   "terra": 100
  },
+ "Lower Spikes": {
+  "energia": 10,
+  "fisico": 4,
+  "fogo": 15,
+  "gelo": 3,
+  "morte": 15,
+  "sagrado": 1,
+  "terra": 100
+ },
  "Mad Mage Room": {
   "afogamento": 40,
   "drenoDeVida": 60,
@@ -313,6 +435,23 @@
   "gelo": 2,
   "morte": 40,
   "sagrado": -10,
+  "terra": 75
+ },
+ "Madareth Seal": {
+  "drenoDeVida": 50,
+  "energia": 20,
+  "fogo": 100,
+  "gelo": 20,
+  "morte": 55,
+  "sagrado": -18,
+  "terra": 95
+ },
+ "Middle Spikes": {
+  "energia": 9,
+  "fogo": 29,
+  "gelo": 5,
+  "morte": 55,
+  "sagrado": -2,
   "terra": 75
  },
  "Mintwallin": {
@@ -324,10 +463,12 @@
   "terra": 7
  },
  "Mushroom Gardens": {
-  "energia": 20,
-  "fogo": -10,
-  "gelo": 20,
-  "terra": 100
+  "energia": -2,
+  "fogo": 35,
+  "gelo": 39,
+  "morte": 3,
+  "sagrado": -3,
+  "terra": 73
  },
  "Mutated Humans": {
   "afogamento": 50,
@@ -360,6 +501,48 @@
   "morte": -10,
   "sagrado": 13,
   "terra": -10
+ },
+ "Otherworld Ankrahmun": {
+  "energia": 87,
+  "fogo": 12,
+  "gelo": 33,
+  "morte": 27,
+  "sagrado": -3,
+  "terra": -7
+ },
+ "Otherworld Edron": {
+  "energia": 75,
+  "fisico": -2,
+  "fogo": 18,
+  "gelo": 12,
+  "morte": 35,
+  "sagrado": -2,
+  "terra": -5
+ },
+ "Otherworld Kazordoon": {
+  "energia": 78,
+  "fisico": 2,
+  "fogo": 30,
+  "gelo": 45,
+  "morte": 8,
+  "sagrado": 2,
+  "terra": -15
+ },
+ "Otherworld Svargrond": {
+  "energia": 87,
+  "fogo": 12,
+  "gelo": 33,
+  "morte": 27,
+  "sagrado": -3,
+  "terra": -7
+ },
+ "Otherworld Zao": {
+  "energia": 86,
+  "fogo": 11,
+  "gelo": 30,
+  "morte": 21,
+  "sagrado": -2,
+  "terra": -8
  },
  "Petrified Hollow": {
   "energia": 55,
@@ -420,6 +603,17 @@
   "gelo": 20,
   "terra": 100
  },
+ "Shadow Nexus": {
+  "afogamento": 50,
+  "drenoDeVida": 33,
+  "energia": 15,
+  "fisico": 12,
+  "fogo": 88,
+  "gelo": 17,
+  "morte": 22,
+  "sagrado": -5,
+  "terra": 35
+ },
  "Souleater's Canyon": {
   "drenoDeVida": 50,
   "energia": -5,
@@ -472,6 +666,74 @@
   "sagrado": -4,
   "terra": 100
  },
+ "Throne of Apocalypse": {
+  "energia": 27,
+  "fisico": 13,
+  "fogo": 53,
+  "gelo": 8,
+  "morte": 3,
+  "sagrado": 7,
+  "terra": 10
+ },
+ "Throne of Ashfalor": {
+  "afogamento": 50,
+  "drenoDeVida": 50,
+  "energia": 40,
+  "fisico": 2,
+  "fogo": 50,
+  "gelo": 45,
+  "morte": 100,
+  "sagrado": -22,
+  "terra": 100
+ },
+ "Throne of Bazir": {
+  "drenoDeVida": 100,
+  "energia": 5,
+  "fisico": 50,
+  "fogo": 5,
+  "gelo": 15,
+  "morte": 100,
+  "sagrado": -18,
+  "terra": 60
+ },
+ "Throne of Infernatil": {
+  "energia": 10,
+  "fisico": 17,
+  "fogo": 100,
+  "gelo": -13,
+  "morte": 13,
+  "sagrado": -2,
+  "terra": 7
+ },
+ "Throne of Pumin": {
+  "afogamento": 33,
+  "drenoDeVida": 67,
+  "energia": 2,
+  "fisico": 30,
+  "fogo": 64,
+  "gelo": 14,
+  "morte": 100,
+  "sagrado": -15,
+  "terra": 100
+ },
+ "Throne of Tafariel": {
+  "drenoDeVida": 50,
+  "energia": 20,
+  "fogo": 100,
+  "gelo": 20,
+  "morte": 55,
+  "sagrado": -18,
+  "terra": 95
+ },
+ "Throne of Verminor": {
+  "energia": 10,
+  "fisico": -2,
+  "fogo": 16,
+  "gelo": 14,
+  "morte": 28,
+  "sagrado": -10,
+  "terra": 100
+ },
  "Thunderscar Peak": {
   "drenoDeVida": 100,
   "energia": 100,
@@ -488,19 +750,18 @@
   "terra": 20
  },
  "Upper Spikes": {
-  "energia": 20,
-  "fogo": 100,
-  "gelo": -10,
-  "terra": 80
+  "energia": 8,
+  "fogo": 42,
+  "gelo": -3,
+  "morte": 38,
+  "terra": 60
  },
  "Ushuriel Seal": {
-  "energia": 10,
-  "fisico": 10,
+  "fisico": 20,
   "fogo": 30,
-  "gelo": -10,
-  "morte": -5,
-  "sagrado": 30,
-  "terra": 80
+  "morte": -2,
+  "sagrado": 12,
+  "terra": 50
  },
  "Vampire hell": {
   "afogamento": 100,
@@ -509,6 +770,50 @@
   "fogo": 45,
   "morte": 100,
   "sagrado": -25,
+  "terra": 100
+ },
+ "Warzone - Lava Lurkers": {
+  "fogo": 100
+ },
+ "Warzone I - Fungus": {
+  "energia": 15,
+  "fogo": -8,
+  "gelo": 15,
+  "morte": 35,
+  "sagrado": 5,
+  "terra": 100
+ },
+ "Warzone I - Montanhas Rochosas": {
+  "energia": 22,
+  "fisico": 8,
+  "fogo": -2,
+  "gelo": 22,
+  "morte": 38,
+  "sagrado": 22,
+  "terra": 100
+ },
+ "Warzone II - Magma Dungeon": {
+  "energia": 20,
+  "fisico": 18,
+  "fogo": 100,
+  "gelo": -2,
+  "morte": 30,
+  "terra": 100
+ },
+ "Warzone II - Ninho de Parasitas": {
+  "energia": 50,
+  "fisico": 8,
+  "fogo": 55,
+  "gelo": 2,
+  "morte": 22,
+  "terra": 100
+ },
+ "Warzone III - Crystal Caves": {
+  "energia": 8,
+  "fisico": 17,
+  "fogo": 48,
+  "gelo": 15,
+  "morte": 33,
   "terra": 100
  },
  "Wasps Dungeons": {
@@ -525,6 +830,15 @@
   "morte": 50,
   "sagrado": 50,
   "terra": 100
+ },
+ "Werebadgers Nest": {
+  "energia": 10,
+  "fisico": 5,
+  "fogo": -5,
+  "gelo": -5,
+  "morte": 40,
+  "sagrado": -5,
+  "terra": 50
  },
  "Wolves Den": {
   "gelo": -10,
@@ -563,11 +877,14 @@
   "terra": 100
  },
  "Zugurosh Seal": {
-  "energia": -20,
-  "fisico": 20,
-  "fogo": 100,
-  "gelo": 100,
-  "morte": 100,
-  "sagrado": 100
+  "afogamento": 25,
+  "drenoDeVida": 25,
+  "energia": -11,
+  "fisico": 28,
+  "fogo": 73,
+  "gelo": 48,
+  "morte": 75,
+  "sagrado": 19,
+  "terra": 55
  }
 }
