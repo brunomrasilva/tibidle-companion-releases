@@ -67,6 +67,11 @@
 
     "chestOpenNow":    { "text": "ABRIR AGORA" },
     "chestResultClose": { "css": "[data-testid='victory-modal'] [data-testid='victory-guardar']" },
+    "keySweepToggle":  { "css": "[data-testid='key-sweep-toggle']" },
+    "keySweepAll":     { "css": "[data-testid='key-sweep-tudo']" },
+    "keySweepPlus":    { "css": "[data-testid='key-sweep-n-mais']" },
+    "keySweepMinus":   { "css": "[data-testid='key-sweep-n-menos']" },
+    "keySweepConfirm": { "css": "[data-testid='key-sweep-confirmar']" },
     "chestSweep":      { "css": "[data-testid='lootbox-sweep']" },
     "chestSweepConfirm": { "css": "[data-testid='box-sweep-confirm']" },
     "chestSweepExit":  { "css": "[data-testid='box-sweep-sair']" },
