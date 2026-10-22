@@ -96,7 +96,8 @@
   "gelo": 20,
   "morte": -5,
   "sagrado": 23,
-  "terra": 20
+  "terra": 20,
+  "_pagina": 4
  },
  "Cyclops Mistrock": {
   "energia": 15,
@@ -104,7 +105,8 @@
   "gelo": 10,
   "morte": -5,
   "sagrado": 20,
-  "terra": -10
+  "terra": -10,
+  "_pagina": 4
  },
  "Cyclops Thais": {
   "energia": 25,
@@ -149,7 +151,8 @@
   "fogo": 80,
   "gelo": -10,
   "morte": -13,
-  "sagrado": 20
+  "sagrado": 20,
+  "_pagina": 4
  },
  "Dragon Lair": {
   "energia": 8,
@@ -349,7 +352,8 @@
   "gelo": 100,
   "morte": -10,
   "sagrado": 30,
-  "terra": 40
+  "terra": 40,
+  "_pagina": 4
  },
  "Inquisition Entrance": {
   "energia": 27,
@@ -487,7 +491,8 @@
   "gelo": -5,
   "morte": -5,
   "sagrado": 10,
-  "terra": 15
+  "terra": 15,
+  "_pagina": 4
  },
  "Orc Fortress": {
   "energia": 28,
@@ -628,7 +633,8 @@
   "fisico": -20,
   "fogo": -10,
   "gelo": -20,
-  "terra": 20
+  "terra": 20,
+  "_pagina": 3
  },
  "Tarpit Tomb First Floor": {
   "afogamento": 50,
