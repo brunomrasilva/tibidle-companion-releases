@@ -2,7 +2,7 @@
   // Mapeado a partir dos snapshots de 01/10/2026 (assets v167). Prefira data-testid: não muda com o idioma.
   // Itens vazios ({}) ainda dependem de snapshot. Com "version" = "UNMAPPED" o modo automático fica
   // desligado; os botões F1–F4 do painel funcionam para testar. Depois de validar, troque para "v167".
-  "version": "v214",
+  "version": "v218",
 
   // A ordem importa: a primeira tela detectada vence.
   "screens": {
