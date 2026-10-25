@@ -40,6 +40,7 @@
     "trainOpen":       { "css": "[data-testid='actionbar-train']" },
     "trainStart":      { "css": "[data-testid='train-start']" },
     "huntConfirm":     { "css": "[data-testid='hunt-confirm']" },
+    "huntConfirmIn":   { "css": "[data-testid='hunt-confirm']", "scope": { "css": "[data-testid^='hunt-item-']", "text": "{huntName}" } },
 
     "sellOpen":        { "css": "[data-testid='actionbar-selling']" },
     "sellConfirm":     { "css": "[data-testid='sell-confirm']" },
