@@ -73,6 +73,15 @@
   "gelo": 10,
   "terra": 20
  },
+ "Crow's Rest": {
+  "drenoDeVida": 100,
+  "energia": 16,
+  "fisico": 5,
+  "fogo": 36,
+  "morte": 100,
+  "sagrado": -24,
+  "terra": 100
+ },
  "Crystal Keeper": {
   "energia": 28,
   "fisico": 13,

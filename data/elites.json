@@ -93,6 +93,14 @@
   "sagrado": -20,
   "morte": 100
  },
+ "Crowmother": {
+  "energia": 100,
+  "terra": -5,
+  "fogo": -10,
+  "gelo": 100,
+  "sagrado": -5,
+  "morte": 10
+ },
  "Cult Leader": {
   "fisico": 1,
   "energia": 1,
