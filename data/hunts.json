@@ -596,6 +596,14 @@
   "gelo": 100,
   "terra": -10
  },
+ "Reaper's Hollow": {
+  "fisico": 10,
+  "fogo": 19,
+  "gelo": 46,
+  "morte": 95,
+  "sagrado": -18,
+  "terra": 65
+ },
  "Return of the beholder": {
   "drenoDeVida": 100,
   "energia": 10,
