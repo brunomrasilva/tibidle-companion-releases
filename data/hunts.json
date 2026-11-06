@@ -290,12 +290,12 @@
  },
  "Hellgorak Seal": {
   "afogamento": 25,
-  "drenoDeVida": 50,
+  "drenoDeVida": 25,
   "energia": 12,
   "fisico": 14,
-  "fogo": 82,
-  "gelo": -8,
-  "morte": 30,
+  "fogo": 58,
+  "gelo": -2,
+  "morte": 5,
   "sagrado": -6,
   "terra": 20
  },
@@ -815,6 +815,15 @@
   "sagrado": 22,
   "terra": 100
  },
+ "Warzone I - Rocky Mountain": {
+  "energia": 22,
+  "fisico": 8,
+  "fogo": -2,
+  "gelo": 22,
+  "morte": 38,
+  "sagrado": 22,
+  "terra": 100
+ },
  "Warzone II - Magma Dungeon": {
   "energia": 20,
   "fisico": 18,
@@ -824,6 +833,14 @@
   "terra": 100
  },
  "Warzone II - Ninho de Parasitas": {
+  "energia": 50,
+  "fisico": 8,
+  "fogo": 55,
+  "gelo": 2,
+  "morte": 22,
+  "terra": 100
+ },
+ "Warzone II - Parasite Nest": {
   "energia": 50,
   "fisico": 8,
   "fogo": 55,

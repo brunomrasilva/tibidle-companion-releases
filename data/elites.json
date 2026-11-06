@@ -768,5 +768,18 @@
   "fogo": 30,
   "gelo": 30,
   "sagrado": 30
+ },
+ "Pumpkin King": {
+  "drenoDeVida": 100,
+  "sagrado": -5,
+  "morte": 100
+ },
+ "The Lantern Reaper": {
+  "terra": 100,
+  "fogo": 100,
+  "afogamento": 100,
+  "gelo": 100,
+  "sagrado": -100,
+  "morte": 100
  }
 }
