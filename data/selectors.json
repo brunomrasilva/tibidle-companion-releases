@@ -2,7 +2,9 @@
   // Mapeado a partir dos snapshots de 01/10/2026 (assets v167). Prefira data-testid: não muda com o idioma.
   // Itens vazios ({}) ainda dependem de snapshot. Com "version" = "UNMAPPED" o modo automático fica
   // desligado; os botões F1–F4 do painel funcionam para testar. Depois de validar, troque para "v167".
-  "version": "v242",
+  "version": "v253",
+  // Seletores da v253 exigem o bridge e os fluxos da 1.0.28: o app antigo espera o instalador (DataUpdater).
+  "minApp": "1.0.28",
 
   // A ordem importa: a primeira tela detectada vence.
   "screens": {
@@ -23,7 +25,8 @@
     "elitesTab":       { "css": "[data-testid='explore-tab-minibosses']" },
     "bossesTab":       { "css": "[data-testid='explore-tab-bosses']" },
     "islandTab":       { "css": "[data-testid='explore-ilha-{island}']" },
-    "playHere":        { "text": "JOGAR AQUI", "scope": { "css": "[data-testid^='hunt-item-']", "text": "{huntName}" } },
+    // v253: "Ir para a caçada", só no detalhe aberto (huntOpen do bridge), que tem o mesmo hunt-item-<id> da linha.
+    "playHere":        { "css": "[data-testid='hunt-confirm']", "scope": { "css": "[data-testid^='hunt-item-']", "text": "{huntName}" } },
     "lureOpen":        { "css": "[data-testid='lure-toggle']" },
     "lureClose":       { "css": "[data-testid='lure-modal-close']" },
     "lureUp":          {},
@@ -50,7 +53,6 @@
     "trainOpen":       { "css": "[data-testid='actionbar-train']" },
     "trainStart":      { "css": "[data-testid='train-start']" },
     "huntConfirm":     { "css": "[data-testid='hunt-confirm']" },
-    "huntConfirmIn":   { "css": "[data-testid='hunt-confirm']", "scope": { "css": "[data-testid^='hunt-item-']", "text": "{huntName}" } },
 
     "sellOpen":        { "css": "[data-testid='actionbar-selling']" },
     "sellConfirm":     { "css": "[data-testid='sell-confirm']" },
@@ -76,15 +78,15 @@
     "silasBossesTab":  {},
     "silasTrade":      {},
 
-    "chestOpenNow":    { "text": "ABRIR AGORA" },
+    "chestOpenNow":    { "css": "[data-testid='lootbox-open']" },
+    "chestClose":      { "css": "[data-testid='lootbox-close']" },
     "chestResultClose": { "css": "[data-testid='victory-modal'] [data-testid='victory-guardar']" },
     "keySweepToggle":  { "css": "[data-testid='key-sweep-toggle']" },
     "keySweepAll":     { "css": "[data-testid='key-sweep-tudo']" },
     "keySweepPlus":    { "css": "[data-testid='key-sweep-n-mais']" },
     "keySweepMinus":   { "css": "[data-testid='key-sweep-n-menos']" },
     "keySweepConfirm": { "css": "[data-testid='key-sweep-confirmar']" },
-    "chestSweep":      { "css": "[data-testid='lootbox-sweep']" },
-    "chestSweepConfirm": { "css": "[data-testid='box-sweep-confirm']" },
+    "chestSweepConfirm": { "css": "[data-testid='lootbox-open']" },
     "chestSweepExit":  { "css": "[data-testid='box-sweep-sair']" },
     "bestiaryTrackerToggle": { "css": "[data-testid='hud-bestiary-track']" },
 
@@ -125,9 +127,8 @@
   },
 
   "texts": {
-    // Só visíveis com a janela JOGAR aberta. O card da caçada atual tem a classe s-explore-card--aqui
-    // ("Você está caçando aqui"); aria-pressed é só o card destacado (ex.: aberto por um card do bestiário).
-    "huntName": { "css": "[data-testid^='hunt-item-'].s-explore-card--aqui img[alt]", "attr": "alt" },
+    // Só visível com a janela JOGAR aberta. A linha da caçada atual traz .s-hrow-aqui ("· Caçando aqui") ao lado do nome.
+    "huntName": { "css": ".s-hrow-nome:has(.s-hrow-aqui) b" },
     "island":   { "css": "[data-testid^='explore-ilha-'][aria-pressed='true']", "attr": "data-testid", "regex": "explore-ilha-(.+)" },
     "lure":     { "css": "", "regex": "(\\d+)" },
     // Tela inicial (antes de "ENTRAR NO JOGO"): nome do personagem/conta.
