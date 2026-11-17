@@ -2,9 +2,10 @@
   // Mapeado a partir dos snapshots de 01/10/2026 (assets v167). Prefira data-testid: não muda com o idioma.
   // Itens vazios ({}) ainda dependem de snapshot. Com "version" = "UNMAPPED" o modo automático fica
   // desligado; os botões F1–F4 do painel funcionam para testar. Depois de validar, troque para "v167".
-  "version": "v264",
-  // Seletores da v253 exigem o bridge e os fluxos da 1.0.28: o app antigo espera o instalador (DataUpdater).
-  "minApp": "1.0.28",
+  "version": "v272",
+  // Seletores da v272 (raidTodayTab, id montado por partes) exigem o verificador da 1.0.34: o app antigo espera o
+  // instalador (DataUpdater).
+  "minApp": "1.0.34",
 
   // A ordem importa: a primeira tela detectada vence.
   "screens": {
@@ -66,6 +67,7 @@
     "raidTab":         { "css": "[data-testid='invasao-icone']" },
     "raidSignup":      { "text": "INSCREVER", "match": "prefix", "scope": { "css": "[data-testid='invasao-modal']" } },
     "raidPresetTab":   { "css": "[data-testid='invasao-aba-preset']" },
+    "raidTodayTab":    { "css": "[data-testid='invasao-aba-hoje']" },
     "raidClose":       { "css": "[data-testid='invasao-close']" },
 
     "eliteFight":      { "css": "[data-testid^='explore-boss-'][data-testid$='-action']", "text": "ENFRENTAR" },
