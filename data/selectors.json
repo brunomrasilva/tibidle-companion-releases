@@ -2,7 +2,7 @@
   // Mapeado a partir dos snapshots de 01/10/2026 (assets v167). Prefira data-testid: não muda com o idioma.
   // Itens vazios ({}) ainda dependem de snapshot. Com "version" = "UNMAPPED" o modo automático fica
   // desligado; os botões F1–F4 do painel funcionam para testar. Depois de validar, troque para "v167".
-  "version": "v272",
+  "version": "v281",
   // Seletores da v272 (raidTodayTab, id montado por partes) exigem o verificador da 1.0.34: o app antigo espera o
   // instalador (DataUpdater).
   "minApp": "1.0.34",
@@ -58,6 +58,7 @@
     "sellOpen":        { "css": "[data-testid='actionbar-selling']" },
     "sellConfirm":     { "css": "[data-testid='sell-confirm']" },
     "sellDialogOk":    { "css": "[data-testid='confirm-dialog'] [data-testid='confirm-ok']" },
+    "huntLevelOk":     { "css": "[data-testid='confirm-dialog'] [data-testid='confirm-ok']" },
     "sellClose":       { "css": "[data-testid='sell-panel'] [data-testid='panel-close']" },
 
     "depotOpen":       { "css": "[data-testid='actionbar-depot']" },
