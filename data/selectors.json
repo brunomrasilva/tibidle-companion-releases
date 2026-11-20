@@ -2,7 +2,7 @@
   // Mapeado a partir dos snapshots de 01/10/2026 (assets v167). Prefira data-testid: não muda com o idioma.
   // Itens vazios ({}) ainda dependem de snapshot. Com "version" = "UNMAPPED" o modo automático fica
   // desligado; os botões F1–F4 do painel funcionam para testar. Depois de validar, troque para "v167".
-  "version": "v285",
+  "version": "v286",
   // Seletores da v272 (raidTodayTab, id montado por partes) exigem o verificador da 1.0.34: o app antigo espera o
   // instalador (DataUpdater).
   "minApp": "1.0.34",
@@ -121,6 +121,8 @@
     // Tela "Em manutenção" (servidor respondeu play_not_allowed) e o "Reconectando ao jogo" de quando a conexão cai.
     "maintenance":  { "css": "[data-testid='not-allowed']" },
     "reconnecting": { "css": "[data-testid='admission-pending-overlay']" },
+    // Tela "Sessão encerrada: sua conta foi conectada em outro dispositivo" (o jogo só deixa uma sessão por conta).
+    "sessionReplaced": { "css": "[data-testid='session-replaced']" },
     "partyDead":    { "css": ".s-summary-eyebrow--death, [data-testid='summary-death-cause']" },
     "fightWon":     { "css": "[data-testid='victory-modal']" },
     "fightLost":    {},
